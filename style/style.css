@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(13, 51, 63);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.title {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.title h1 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 1200;
+}
+
+.title h2 {
+    margin-top: 25px;
+    text-shadow: 2px 2px 1px rgb(112, 177, 185);
+}
+
+.timesArea {
+    /* position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(112, 177, 185);
+    width: 270px;
+    height: 500px;
+    border-radius: 15px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+
+.timebox {
+    background: rgb(255, 255, 255);
+    margin: 10px;
+    width: 110px;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px dashed black;
+    padding-top: 5px;
+}
+
+.timebox h2 {
+    margin-bottom: 10px;
+}
+
+.part, .temas, .setters {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(112, 177, 185);
+    border-radius: 15px;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.part:hover, .setters:hover, .temas:hover {
+    box-shadow: 0 0 2em rgb(255, 255, 255);
+}
